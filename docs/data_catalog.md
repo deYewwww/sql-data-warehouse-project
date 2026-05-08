@@ -5,8 +5,8 @@ The Gold Layer is the business-level data representation, structured to support 
 tables** and **fact tables** for specific business metric. 
 
 ### 1. gold.dim_customers
-  #### - Purpose: Stores customer details enriched with demographic and geogrpahic data.
-  #### - Columns: 
+  ####   - Purpose: Stores customer details enriched with demographic and geogrpahic data.
+  ####   - Columns: 
 | Column Name | Data Type | Description |
 | :--- | :--- | :--- |
 | customer key | INT | Surrogate key uniquely identifying each customer record in the dimension table. |
@@ -21,8 +21,8 @@ tables** and **fact tables** for specific business metric.
 | create_date | DATE | The date and time when the customer record was created in the system. |
 
 ### 2. gold.dim_products
-  #### - Purpose: Provides information about the products and their attributes. 
-  #### - Columns: 
+  ####   - Purpose: Provides information about the products and their attributes. 
+  ####   - Columns: 
 | Column Name | Data Type | Description |
 | :--- | :--- | :--- |
 | product key | INT | Surrogate key uniquely identifying each products record in the dimension table. |
@@ -38,8 +38,8 @@ tables** and **fact tables** for specific business metric.
 | start_date | DATE | The date when the products are available for sales or use. |
 
 ### 3. gold.fact_sales
-  #### - Purpose: Stores transactional sales data for analytical purposes. 
-  #### - Columns: 
+  ####   - Purpose: Stores transactional sales data for analytical purposes. 
+  ####   - Columns: 
 | Column Name | Data Type | Description |
 | :--- | :--- | :--- |
 | order_number |	NVARCHAR(50) |	A unique alphanumeric identifier for each sales order (e.g., 'SO54496'). |
