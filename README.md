@@ -9,7 +9,7 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 ### Building the Data Warehouse (Data Engineering)
 
 #### Objective
-Building a modern data warehouse with Postgres SQL in Dbeaver, including ETL process, data modelling and analytics. 
+Building a modern data warehouse with Postgres SQL in Visual Studio Code, including ETL process, data modelling and analytics. 
 
 #### Specifications
 - **Data Sources** :
